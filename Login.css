@@ -1,0 +1,40 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
