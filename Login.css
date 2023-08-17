@@ -4,6 +4,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.Scenario-logo {
+    width: 200px;
+    height: auto;
+}
+
+.logo-h{
+    
+}
+
 .container {
     display: flex;
     justify-content: center;
