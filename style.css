@@ -1,111 +1,73 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
-/* Header */
 header {
-    background-color: #2b2b2b;
+    background-color: #333;
     padding: 20px;
-}
-
-header h1 {
-    color: #ffffff;
-    margin: 0;
-    font-size: 24px;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: flex-end;
 }
 
-nav li {
-    margin-left: 15px;
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
 }
 
-nav a {
-    color: #ffffff;
+nav ul li a {
+    color: #fff;
     text-decoration: none;
 }
 
-/* Hero section */
-#hero {
-    background-color: #2b2b2b;
-    color: #ffffff;
+#home {
+    background-color: #f5f5f5;
+    padding: 100px;
+    text-align: center;
+}
+
+#about {
+    background-color: #fff;
     padding: 50px;
 }
 
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.hero-content h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-}
-
-.btn {
-    background-color: #ff3b3b;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
-/* Features section */
-#features {
+#services {
+    background-color: #f5f5f5;
     padding: 50px;
-    background-color: #2b2b2b;
-    color: #ffffff;
 }
 
-#features h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+#contact {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
 }
 
-.feature {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.feature img {
-    width: 100px;
-    margin-right: 20px;
-}
-
-/* Footer */
 footer {
-    background-color: #2b2b2b;
-    color: #ffffff;
+    background-color: #333;
     padding: 20px;
     text-align: center;
 }
 
-.logo h1 {
-    color: #ffffff;
-    font-size: 24px;
-    margin: 0;
+h1, h2 {
+    color: #333;
 }
 
-.social-icons a {
-    margin-right: 10px;
+ul {
+    list-style: square;
+    margin-left: 20px;
 }
 
-footer p {
-    font-size: 12px;
-    margin-top: 20px;
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
