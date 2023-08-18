@@ -4,6 +4,16 @@ body {
     padding: 0;
 }
 
+.login-singup{
+    float: left;
+}
+
+.logo{
+    float: right;
+    width: 45px;
+    height: auto;
+}
+
 header {
     background-color: #333;
     padding: 20px;
