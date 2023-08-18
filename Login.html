@@ -1,25 +1,30 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Login.css">
-  <title>Login Page</title>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>Login</title>
 </head>
 
 <body>
     <div class="container">
-      <img src="png/Logo/scenario v1.png" class="Scenario-logo">
-      <h2>Login</h2>
-    <form>
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required>
-      <input type="submit" value="Login">
-    </form>
-  </div>
+        <form id="login-form" class="form">
+            <img src="png/Logo/scenario v1.png" class="Scenario-logo">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
