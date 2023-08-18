@@ -1,20 +1,25 @@
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Login.css">
-    <title>Login Page</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Login.css">
+  <title>Login Page</title>
+  
 </head>
+
 <body>
     <div class="container">
-        <div class="login-box">
-            <span class="logo-h"><img src="png/Logo/scenario v1.png" class="Scenario-logo">
-            <h2>Login</h2></span>
-            <form onsubmit="return false;">
-                <input type="text" id="username" placeholder="Username" required>
-                <input type="password" id="password" placeholder="Password" required>
-                <input type="submit" value="Login" onclick="login()">
-            </form>
-        </div>
-    </div>
+      <img src="png/Logo/scenario v1.png" class="Scenario-logo">
+      <h2>Login</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+
+</html>

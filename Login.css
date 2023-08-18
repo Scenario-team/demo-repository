@@ -1,49 +1,51 @@
 body {
-    background-color: #1e1e1e;
+    background-color: #303030;
     color: #fff;
     font-family: Arial, sans-serif;
 }
 
-.Scenario-logo {
-    width: 200px;
-    height: auto;
-}
-
-.logo-h{
-    
-}
-
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.login-box {
-    background-color: #292929;
+    width: 300px;
+    margin: 100px auto;
     padding: 20px;
+    background-color: #424242;
     border-radius: 5px;
 }
 
-.login-box input[type="text"],
-.login-box input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 3px;
-    outline: none;
-    border: none;
+.Scenario-logo {
+    width: 100px;
+    height: auto;
+    float: right;
 }
 
-.login-box input[type="submit"] {
+.container h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
-    border-radius: 3px;
-    outline: none;
     border: none;
-    background-color: #4CAF50;
+    background-color: #555;
     color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #2196F3;
+    color: #fff;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 5px;
 }
